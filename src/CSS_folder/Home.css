@@ -239,4 +239,96 @@
 .rotate {
     transform: rotate(180deg);
   }
+  @media (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .hero {
+      margin-top: -250px;
+      flex-direction: column;
+      padding: 1rem 0;
+    }
+  
+    .hero-content {
+      width: 95%;
+      height: auto;
+      padding: 1.5rem 1rem;
+    }
+  
+    .hero-title {
+      font-size: 2rem;
+      margin-top: 60px;
+      margin-bottom: 2rem;
+    }
+  
+    .hero-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .Welcome {
+      padding: 2rem 1rem;
+      margin-top: 0;
+    }
+  
+    .Welcome-title {
+      font-size: 2rem;
+    }
+  
+    .Welcome-content {
+      margin-right: 0;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .Services-cards {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  
+    .Services-title {
+      font-size: 2rem;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-content {
+      font-size: 0.95rem;
+    }
+  
+    .card-button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+    }
+  
+    .faq-container {
+      padding: 2rem 1rem;
+    }
+  
+    .faq-title {
+      font-size: 2rem;
+    }
+  
+    .faq-box {
+      width: 95%;
+    }
+  
+    .collapsible {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+  
+    .content {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .arrow {
+      font-size: 1.2rem;
+    }
+  }
   
