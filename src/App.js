@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Pages/Home';
 import Footer from './Components/Footer';
@@ -22,7 +22,7 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Header />
       <Routes>
@@ -36,7 +36,7 @@ function App() {
         <Route path="/ourservices" element={<OurServices />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
