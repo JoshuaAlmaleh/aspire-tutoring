@@ -58,8 +58,15 @@
     margin-top: 1rem;
   }
   
-  /* Mobile Responsiveness */
   @media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .AboutUs-container {
+      margin-top: -200px;
+    }
+  
     .AboutUs-content {
       flex-direction: column;
       text-align: left;

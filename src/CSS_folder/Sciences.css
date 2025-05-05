@@ -71,3 +71,34 @@
     font-weight: 500;
     margin-top: -20px;
   }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .Sciences-container {
+      margin-top: -200px;
+    }
+  
+    .Sciences-title {
+      font-size: 1.5rem;
+    }
+  
+    .Sciences-text {
+      font-size: 0.95rem;
+    }
+  
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .faq-item p {
+      font-size: 0.9rem;
+    }
+  
+    .faq-heading {
+      font-size: 1.75rem;
+    }
+  }
+  

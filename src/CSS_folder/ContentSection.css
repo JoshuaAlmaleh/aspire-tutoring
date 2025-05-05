@@ -72,8 +72,15 @@
     margin: 0;
   }
   
-  /* Mobile layout */
   @media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .Mathematics-container {
+      margin-top: -200px;
+    }
+  
     .section {
       flex-direction: column !important;
       height: auto;
@@ -97,7 +104,25 @@
     .section-text p {
       font-size: 1rem;
     }
+  
+    .discount-offer {
+      padding: 2rem 1rem;
+    }
+  
+    .discount-offer h2 {
+      font-size: 2rem;
+    }
+  
+    .discount-offer p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+    }
   }
+  
   
   .discount-offer {
     background: linear-gradient(135deg, #fc6e51, #ff9472);

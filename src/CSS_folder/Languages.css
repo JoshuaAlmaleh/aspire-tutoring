@@ -71,3 +71,31 @@
     font-weight: 500;
     margin-top: -20px;
   }
+
+  @media (max-width: 768px) {
+    .Languages-container {
+      margin-top: -200px;
+    }
+  
+    .Languages-title {
+      font-size: 1.5rem;
+    }
+  
+    .Languages-text {
+      font-size: 0.95rem;
+    }
+  
+    
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .faq-item p {
+      font-size: 0.9rem; 
+    }
+  
+    .faq-heading {
+      font-size: 1.75rem; 
+    }
+  }
+  

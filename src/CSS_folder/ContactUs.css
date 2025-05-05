@@ -100,9 +100,16 @@
     color: #0056b3;
     text-decoration: underline;
   }
-  
-  /* Mobile Responsiveness */
+
   @media (max-width: 768px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .ContactUs-container {
+      margin-top: -200px;
+    }
+  
     .ContactUs-content {
       flex-direction: column;
       text-align: left;
