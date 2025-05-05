@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aspire-tutoring/static/css/main.70c41164.css",
-    "main.js": "/aspire-tutoring/static/js/main.bdfe12a0.js",
-    "static/js/453.12d15e9a.chunk.js": "/aspire-tutoring/static/js/453.12d15e9a.chunk.js",
-    "index.html": "/aspire-tutoring/index.html",
-    "main.70c41164.css.map": "/aspire-tutoring/static/css/main.70c41164.css.map",
-    "main.bdfe12a0.js.map": "/aspire-tutoring/static/js/main.bdfe12a0.js.map",
-    "453.12d15e9a.chunk.js.map": "/aspire-tutoring/static/js/453.12d15e9a.chunk.js.map"
+    "main.css": "/static/css/main.70c41164.css",
+    "main.js": "/static/js/main.c9aceed1.js",
+    "static/js/453.12d15e9a.chunk.js": "/static/js/453.12d15e9a.chunk.js",
+    "index.html": "/index.html",
+    "main.70c41164.css.map": "/static/css/main.70c41164.css.map",
+    "main.c9aceed1.js.map": "/static/js/main.c9aceed1.js.map",
+    "453.12d15e9a.chunk.js.map": "/static/js/453.12d15e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70c41164.css",
-    "static/js/main.bdfe12a0.js"
+    "static/js/main.c9aceed1.js"
   ]
 }
