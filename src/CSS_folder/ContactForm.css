@@ -1,0 +1,102 @@
+/* Contact Form Modal */
+.ContactForm-section {
+    position: fixed; /* make it pop-up */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6); /* dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.ContactForm-section .container {
+    max-width: 600px; /* form width */
+    width: 90%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.ContactForm-section h2 {
+    color: #fc6e51;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ContactForm-section input,
+.ContactForm-section textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.ContactForm-section textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.ContactForm-section button[type="submit"] {
+    background-color: #fc6e51;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+
+.ContactForm-section button[type="submit"]:hover {
+    background-color: #e85b3b;
+}
+
+/* Close Form Button */
+.ContactForm-section .close-button {
+    display: block;
+    margin: 1rem auto 0 auto; /* top margin 1rem, centered */
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ContactForm-section .close-button:hover {
+    background-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .ContactForm-section .container {
+        padding: 1.5rem;
+    }
+
+    .ContactForm-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .ContactForm-section input,
+    .ContactForm-section textarea {
+        font-size: 0.95rem;
+    }
+
+    .ContactForm-section .close-button {
+        padding: 0.65rem 1.5rem;
+        font-size: 0.95rem;
+    }
+}
