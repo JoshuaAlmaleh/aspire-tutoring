@@ -1,19 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../CSS_folder/Home.css';
 import { FAQ } from '../Backend/FAQ';
 import { Services } from '../Backend/Services';
+import ContactForm from '../Backend/ContactForm';
 function Home() {
+   const [showForm, setShowForm] = useState(false);
   return (
    <><section
           className="hero">
           <div className="hero-content"
               style={{ backgroundImage: `url('https://primary.jwwb.nl/unsplash/Hcfwew744z4.jpg')` }}>
               <h1 className="hero-title">Unlocking Your Potential, One Lesson at a Time</h1>
-              <button className="hero-button">Learn More</button>
+              <button className="hero-button" 
+              // onClick={() => document.getElementById("Services").scrollIntoView({ behavior: "smooth" })}
+              onClick={() => setShowForm(true)}
+              >
+                Learn More</button>
           </div>
 
+      </section>
+      
+      
+      {showForm && (
+        <section className="ContactForm-section">
+          <div className="container">
+            <ContactForm />
+            <button
+              className="close-button"
+              onClick={() => setShowForm(false)}
+            >
+              Close Form
+            </button>
+          </div>
+        </section>
+      )}
 
-      </section><section className="Welcome">
+      
+      
+      <section className="Welcome">
         <div className="container">
               <div className="Welcome">
                   <h1 className="Welcome-title">Welcome to Aspire Tutoring</h1>

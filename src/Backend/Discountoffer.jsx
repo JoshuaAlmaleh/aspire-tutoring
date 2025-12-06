@@ -1,6 +1,5 @@
-// DiscountOffer.js
 import React from "react";
-import "../CSS_folder/ContentSection.css"; // Reuse same styling for consistency
+import "../CSS_folder/ContentSection.css"; 
 
 const DiscountOffer = () => {
   return (
